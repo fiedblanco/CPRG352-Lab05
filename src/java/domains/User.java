@@ -5,11 +5,13 @@
  */
 package domains;
 
+import java.io.Serializable;
+
 /**
  *
  * @author 854276
  */
-public class User {
+public class User implements Serializable{
     private String username;
     private String password;
 
